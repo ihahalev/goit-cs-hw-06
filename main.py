@@ -156,7 +156,7 @@ def handle(sock: socket.socket, address: str):
         sock.close()
 
 def run_socket_server(ip:str, port:int):
-    """configuring and running our socket server
+    """configuring and running our socket server, each client in its thread
 
     Args:
         ip (str): ip address
